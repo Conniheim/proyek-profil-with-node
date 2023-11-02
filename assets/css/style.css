@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Mukta', sans-serif;
+    text-align: justify;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    }
+
+    h2, h3 {
+        color: #1089FF;
+      }
+    p{
+      font-family:'Quicksand',sans-serif;
+    }
+  
+    footer {
+        padding: 20px;
+        color: white;
+        background-color: #1089FF;
+        text-align: center;
+        font-weight: bold;
+    }
+    nav a {
+      font-size: 18px;
+      font-weight: 400;
+      text-decoration: none;
+      color: white;
+    }
+  
+    .profile header {
+      text-align: center;
+    }
+    .jumbotron {
+        font-size: 20px;
+        padding: 60px;
+        background-color: #23374D;
+        text-align: center;
+        color: #E5E5E5;
+    }
+    nav li {
+      list-style-type: none;
+    }
+  
+    nav {
+      background-color: #1089FF;
+      padding: 5px;
+  
+      position: sticky;
+      top: 0;
+   }
+
+   .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    
+  }
+  
+   nav ul {
+    padding-inline: 4rem;
+    display: flex;
+    gap: 2rem;
+  }
+
+  main {
+    padding: 20px;
+    display: flex;
+    gap: 1.5rem;
+  }
+  aside {
+    flex: 1.5;
+    
+  }
+  table {
+    border-spacing: 10px;
+  }
+  
+  header {
+    display: inline;
+  }  
+  #content {
+    flex: 5;
+  
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem 2rem;
+  }
+    .featured-image {
+      width: 100%;
+      max-height: 450px;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .kepanitiaan-image {
+      width: 100%;
+      max-height: 250px;
+      object-fit: contain;
+      object-position: left;
+    }
+    .profile img {
+      width: 250px;
+      border-radius: 50%
+    }
+
+    @media screen and (max-width: 1200px) {
+      main {
+        flex-flow: column nowrap;
+      }
+      main aside {
+        align-self: center;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      nav ul {
+        justify-content: center;
+      }
+     
+      main aside {
+        align-self: center;
+      }
+    }
+
+    .dark-mode {
+      background-color: black;
+      color: white;
+    
+    }
+    
